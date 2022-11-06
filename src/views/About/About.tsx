@@ -1,11 +1,10 @@
 import React from "react";
-
+import style from "./style.module.scss"
 
 const About = () => {
     return(
         <>
-            <h1>This is the about page</h1>
-            <p>Hello World</p>
+            <h1 className={style.header}>Welcome to About page</h1>
         </>
     )
 }
